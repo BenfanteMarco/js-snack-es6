@@ -73,3 +73,8 @@ const squadreCalcio =[
         falliSubiti : 0
     },  
 ]
+
+// funziona che genera numeri casuali
+function randomNUm(min, max){
+    return Math.floor(Math.random() * (max - min + 1)) + min
+}
