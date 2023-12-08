@@ -33,4 +33,12 @@ modelliBici.forEach((elem) => {
     pesi.push(parseInt(elem.peso))
 })
 
-
+// trovo la bici con peso minore
+pesi.sort()
+console.log(pesi)
+modelliBici.forEach((elem) => {
+    if(elem.peso == pesi[0]){
+        let {name, peso}=elem
+        console.log(`la bici ${name} e\' la piu leggera con un peso uguale a: ${peso}`)
+    }
+})
