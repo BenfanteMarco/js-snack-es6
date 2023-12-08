@@ -76,5 +76,12 @@ const squadreCalcio =[
 
 // funziona che genera numeri casuali
 function randomNUm(min, max){
-    return Math.floor(Math.random() * (max - min + 1)) + min
+    return Math.floor(Math.random() * (max - min + 1)) + min;
 }
+
+squadreCalcio.forEach((elem) => {
+    elem.puntiFatti = randomNUm(20, 90);
+    elem.falliSubiti = randomNUm(20, 90);
+})
+
+console.log(squadreCalcio);
