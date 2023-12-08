@@ -85,3 +85,18 @@ squadreCalcio.forEach((elem) => {
 })
 
 console.log(squadreCalcio);
+
+let squadreCalcioFalli = [];
+
+squadreCalcio.forEach((elem) => {
+    let {name, falliSubiti} = elem;
+
+    let squadreCalcio = {
+        name,
+        falliSubiti
+    }
+
+    squadreCalcioFalli.push(name, falliSubiti);
+})
+
+console.log(squadreCalcioFalli);
