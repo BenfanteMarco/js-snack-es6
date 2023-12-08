@@ -42,3 +42,34 @@ modelliBici.forEach((elem) => {
         console.log(`la bici ${name} e\' la piu leggera con un peso uguale a: ${peso}`)
     }
 })
+
+// snack 2
+
+// lista oggeti di squadre
+const squadreCalcio =[
+    {
+        name : 'inetr',
+        puntiFatti : 0,
+        falliSubiti : 0
+    },
+    {
+        name : 'milan',
+        puntiFatti : 0,
+        falliSubiti : 0
+    },
+    {
+        name : 'napoli',
+        puntiFatti : 0,
+        falliSubiti : 0
+    },
+    {
+        name : 'juventus',
+        puntiFatti : 0,
+        falliSubiti : 0
+    },
+    {
+        name : 'roma',
+        puntiFatti : 0,
+        falliSubiti : 0
+    },  
+]
