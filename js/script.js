@@ -25,4 +25,12 @@ const modelliBici =[
     },  
 ]
 
+//arrey pesi
+let pesi=[]
+
+// pusho i pesi nell'array vuoto
+modelliBici.forEach((elem) => {
+    pesi.push(parseInt(elem.peso))
+})
+
 
